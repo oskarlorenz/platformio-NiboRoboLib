@@ -2,6 +2,12 @@
 
 This repository contains [PlatformIO][1] library packages for the [NiboRoboLib][2] C and C++ library (pre-compiled) by [nicai-systems][3].
 
+## Packages
+
+| Package                                  | Description                                                                    |
+| ---------------------------------------- | ------------------------------------------------------------------------------ |
+| [`NiboRoboLib-nibo2`](NiboRoboLib-nibo2) | The NiboRoboLib C and C++ library (pre-compiled) for the NIBO 2 (and 1) robot. |
+
 ## Legal Disclaimer
 
 This open source software project is neither affiliated with nor endorsed by nicai-systems in any way. This project merely attempts to package parts of the original source code and binary files from nicai-systems.

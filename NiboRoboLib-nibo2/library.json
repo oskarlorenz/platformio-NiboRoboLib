@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+  "name": "NiboRoboLib-nibo2",
+  "version": "3.4.0+1693931602",
+  "description": "The NiboRoboLib C and C++ library (pre-compiled) for the NIBO 2 (and 1) robot.",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "branch": "v3.4.0",
+    "url": "https://github.com/oskarlorenz/platformio-NiboRoboLib.git",
+    "type": "git"
+  },
+  "authors": [
+    {
+      "name": "Nils Springob",
+      "email": "nils@nicai-systems.de",
+      "url": "https://www.nicai-systems.com"
+    },
+    {
+      "name": "Oskar Lorenz",
+      "email": "oslo1817@th-wildau.de",
+      "maintainer": true
+    }
+  ],
+  "platforms": "atmelavr",
+  "build": {
+    "flags": [
+      "-L lib/nibo1-m128-16",
+      "-L lib/nibo2-m128-16"
+    ]
+  }
+}
